@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.panxiaochao</groupId>
     <artifactId>pxc-dynamic-datasource-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
     <name>pxc-dynamic-datasource-spring-boot-starter</name>
     <description>pxc-dynamic-datasource-spring-boot-starter</description>
     <url>https://github.com/panxiaochao/pxc-dynamic-datasource-spring-boot-starter</url>
@@ -13,13 +13,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <pxc.dynamic.datasource.version>1.0.0</pxc.dynamic.datasource.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>io.github.panxiaochao</groupId>
             <artifactId>pxc-dynamic-datasource-spring-boot-autoconfigure</artifactId>
-            <version>${pxc.dynamic.datasource.version}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
